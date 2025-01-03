@@ -133,545 +133,133 @@ RULESET:
 - - 🐟 漏网之鱼
   - '[]FINAL'
 CUSTOM_PROXY_GROUP:
-  - name: 🚀 节点代理
-    type: select
-    proxies:
-      - 🇭🇰 D00 香港P
-      - 🇭🇰 D01 香港P
-      - 🇭🇰 D02 香港P
-      - 🇭🇰 D03 香港P
-      - 🇭🇰 D04 香港
-      - 🇭🇰 D05 香港noAd
-      - 🇭🇰 D06 香港
-      - 🇭🇰 D07 香港
-      - 🇭🇰 D08 香港
-      - 🇭🇰 D09 香港P
-      - 🇹🇼 D10 台湾P
-      - 🇹🇼 D11 台湾P
-      - 🇹🇼 D12 台湾P
-      - 🇹🇼 D13 台湾P
-      - 🇹🇼 D14 台湾P
-      - 🇹🇼 D15 台湾P
-      - 🇯🇵 D20 日本T
-      - 🇯🇵 D21 日本T
-      - 🇯🇵 D22 日本T
-      - 🇯🇵 D23 日本T
-      - 🇯🇵 D24 日本
-      - 🇯🇵 D27 日本P [2]
-      - 🇰🇷 D30 韩国
-      - 🇰🇷 D31 韩国
-      - 🇰🇷 D32 韩国P [1.5]
-      - 🇺🇸 D40 美国
-      - 🇺🇸 D41 美国
-      - 🇺🇸 D42 美国
-      - 🇺🇸 D43 美国
-      - 🇺🇸 D44 美国
-      - 🇸🇬 D50 新加坡T
-      - 🇸🇬 D51 新加坡T
-      - 🇸🇬 D52 新加坡AI
-      - 🇸🇬 D53 新加坡AI
-      - 🇸🇬 D54 新加坡AI
-      - 🇲🇾 D55 马来西亚
-      - 🇲🇾 D56 马来西亚
-      - 🇻🇳 D60 越南
-      - 🇯🇵 E0 日本Go
-      - 🇮🇱 H60 以色列
-      - 🇷🇺 H60 俄罗斯
-      - 🇨🇦 H60 加拿大
-      - 🐧 H60 南极 [5]
-      - 🇿🇦 H60 南非 [3]
-      - 🇱🇺 H60 卢森堡 [0.8]
-      - 🇮🇩 H60 印尼 [2]
-      - 🇮🇳 H60 印度
-      - 🇹🇷 H60 土耳其 [8]
-      - 🇪🇬 H60 埃及 [5]
-      - 🇲🇽 H60 墨西哥
-      - 🇳🇬 H60 尼日利亚 [8]
-      - 🇵🇰 H60 巴基斯坦 [8]
-      - 🇧🇷 H60 巴西
-      - 🇩🇪 H60 德国
-      - 🇮🇹 H60 意大利
-      - 🇲🇩 H60 摩尔多瓦
-      - 🇰🇵 H60 朝鲜 [5]
-      - 🇻🇦 H60 梵蒂冈 [5]
-      - 🇫🇷 H60 法国
-      - 🇹🇭 H60 泰国
-      - 🇦🇺 H60 澳大利亚
-      - 🇮🇪 H60 爱尔兰
-      - 🇲🇲 H60 缅甸 [5]
-      - 🇫🇮 H60 芬兰
-      - 🇬🇧 H60 英国1
-      - 🇬🇧 H60 英国2 [3]
-      - 🇳🇱 H60 荷兰
-      - 🇵🇭 H60 菲律宾 [5]
-      - 🇦🇷 H60 阿根廷 [2]
-      - 🇦🇪 H60 阿联酋
-      - 🇯🇵 HY00 日本 0.2
-      - 🇯🇵 HY01 日本 0.2
-      - 🌈 RLYA6 亚太443 0.1
-      - 🇯🇵 RLYA4 日本 0.1
-      - 🇹🇼 RLYA5 台灣 0.1
-      - 🇹🇼 RLYA7 台灣 0.1
-      - 🇹🇼 RLYB5 台灣 0.1
-      - 🇺🇸 RLYA2 美国 0.1
-      - 🇷🇺 RLYA3 俄罗斯 0.1
-      - DIRECT
-  - name: 🌍 国外媒体
-    type: select
-    proxies:
-      - 🚀 节点代理
-      - 🎯 绕过代理
-      - 🇭🇰 D00 香港P
-      - 🇭🇰 D01 香港P
-      - 🇭🇰 D02 香港P
-      - 🇭🇰 D03 香港P
-      - 🇭🇰 D04 香港
-      - 🇭🇰 D05 香港noAd
-      - 🇭🇰 D06 香港
-      - 🇭🇰 D07 香港
-      - 🇭🇰 D08 香港
-      - 🇭🇰 D09 香港P
-      - 🇹🇼 D10 台湾P
-      - 🇹🇼 D11 台湾P
-      - 🇹🇼 D12 台湾P
-      - 🇹🇼 D13 台湾P
-      - 🇹🇼 D14 台湾P
-      - 🇹🇼 D15 台湾P
-      - 🇯🇵 D20 日本T
-      - 🇯🇵 D21 日本T
-      - 🇯🇵 D22 日本T
-      - 🇯🇵 D23 日本T
-      - 🇯🇵 D24 日本
-      - 🇯🇵 D27 日本P [2]
-      - 🇰🇷 D30 韩国
-      - 🇰🇷 D31 韩国
-      - 🇰🇷 D32 韩国P [1.5]
-      - 🇺🇸 D40 美国
-      - 🇺🇸 D41 美国
-      - 🇺🇸 D42 美国
-      - 🇺🇸 D43 美国
-      - 🇺🇸 D44 美国
-      - 🇸🇬 D50 新加坡T
-      - 🇸🇬 D51 新加坡T
-      - 🇸🇬 D52 新加坡AI
-      - 🇸🇬 D53 新加坡AI
-      - 🇸🇬 D54 新加坡AI
-      - 🇲🇾 D55 马来西亚
-      - 🇲🇾 D56 马来西亚
-      - 🇻🇳 D60 越南
-      - 🇯🇵 E0 日本Go
-      - 🇮🇱 H60 以色列
-      - 🇷🇺 H60 俄罗斯
-      - 🇨🇦 H60 加拿大
-      - 🐧 H60 南极 [5]
-      - 🇿🇦 H60 南非 [3]
-      - 🇱🇺 H60 卢森堡 [0.8]
-      - 🇮🇩 H60 印尼 [2]
-      - 🇮🇳 H60 印度
-      - 🇹🇷 H60 土耳其 [8]
-      - 🇪🇬 H60 埃及 [5]
-      - 🇲🇽 H60 墨西哥
-      - 🇳🇬 H60 尼日利亚 [8]
-      - 🇵🇰 H60 巴基斯坦 [8]
-      - 🇧🇷 H60 巴西
-      - 🇩🇪 H60 德国
-      - 🇮🇹 H60 意大利
-      - 🇲🇩 H60 摩尔多瓦
-      - 🇰🇵 H60 朝鲜 [5]
-      - 🇻🇦 H60 梵蒂冈 [5]
-      - 🇫🇷 H60 法国
-      - 🇹🇭 H60 泰国
-      - 🇦🇺 H60 澳大利亚
-      - 🇮🇪 H60 爱尔兰
-      - 🇲🇲 H60 缅甸 [5]
-      - 🇫🇮 H60 芬兰
-      - 🇬🇧 H60 英国1
-      - 🇬🇧 H60 英国2 [3]
-      - 🇳🇱 H60 荷兰
-      - 🇵🇭 H60 菲律宾 [5]
-      - 🇦🇷 H60 阿根廷 [2]
-      - 🇦🇪 H60 阿联酋
-      - 🇯🇵 HY00 日本 0.2
-      - 🇯🇵 HY01 日本 0.2
-      - 🌈 RLYA6 亚太443 0.1
-      - 🇯🇵 RLYA4 日本 0.1
-      - 🇹🇼 RLYA5 台灣 0.1
-      - 🇹🇼 RLYA7 台灣 0.1
-      - 🇹🇼 RLYB5 台灣 0.1
-      - 🇺🇸 RLYA2 美国 0.1
-      - 🇷🇺 RLYA3 俄罗斯 0.1
-  - name: 📲 电报信息
-    type: select
-    proxies:
-      - 🚀 节点代理
-      - 🎯 绕过代理
-      - 🇭🇰 D00 香港P
-      - 🇭🇰 D01 香港P
-      - 🇭🇰 D02 香港P
-      - 🇭🇰 D03 香港P
-      - 🇭🇰 D04 香港
-      - 🇭🇰 D05 香港noAd
-      - 🇭🇰 D06 香港
-      - 🇭🇰 D07 香港
-      - 🇭🇰 D08 香港
-      - 🇭🇰 D09 香港P
-      - 🇹🇼 D10 台湾P
-      - 🇹🇼 D11 台湾P
-      - 🇹🇼 D12 台湾P
-      - 🇹🇼 D13 台湾P
-      - 🇹🇼 D14 台湾P
-      - 🇹🇼 D15 台湾P
-      - 🇯🇵 D20 日本T
-      - 🇯🇵 D21 日本T
-      - 🇯🇵 D22 日本T
-      - 🇯🇵 D23 日本T
-      - 🇯🇵 D24 日本
-      - 🇯🇵 D27 日本P [2]
-      - 🇰🇷 D30 韩国
-      - 🇰🇷 D31 韩国
-      - 🇰🇷 D32 韩国P [1.5]
-      - 🇺🇸 D40 美国
-      - 🇺🇸 D41 美国
-      - 🇺🇸 D42 美国
-      - 🇺🇸 D43 美国
-      - 🇺🇸 D44 美国
-      - 🇸🇬 D50 新加坡T
-      - 🇸🇬 D51 新加坡T
-      - 🇸🇬 D52 新加坡AI
-      - 🇸🇬 D53 新加坡AI
-      - 🇸🇬 D54 新加坡AI
-      - 🇲🇾 D55 马来西亚
-      - 🇲🇾 D56 马来西亚
-      - 🇻🇳 D60 越南
-      - 🇯🇵 E0 日本Go
-      - 🇮🇱 H60 以色列
-      - 🇷🇺 H60 俄罗斯
-      - 🇨🇦 H60 加拿大
-      - 🐧 H60 南极 [5]
-      - 🇿🇦 H60 南非 [3]
-      - 🇱🇺 H60 卢森堡 [0.8]
-      - 🇮🇩 H60 印尼 [2]
-      - 🇮🇳 H60 印度
-      - 🇹🇷 H60 土耳其 [8]
-      - 🇪🇬 H60 埃及 [5]
-      - 🇲🇽 H60 墨西哥
-      - 🇳🇬 H60 尼日利亚 [8]
-      - 🇵🇰 H60 巴基斯坦 [8]
-      - 🇧🇷 H60 巴西
-      - 🇩🇪 H60 德国
-      - 🇮🇹 H60 意大利
-      - 🇲🇩 H60 摩尔多瓦
-      - 🇰🇵 H60 朝鲜 [5]
-      - 🇻🇦 H60 梵蒂冈 [5]
-      - 🇫🇷 H60 法国
-      - 🇹🇭 H60 泰国
-      - 🇦🇺 H60 澳大利亚
-      - 🇮🇪 H60 爱尔兰
-      - 🇲🇲 H60 缅甸 [5]
-      - 🇫🇮 H60 芬兰
-      - 🇬🇧 H60 英国1
-      - 🇬🇧 H60 英国2 [3]
-      - 🇳🇱 H60 荷兰
-      - 🇵🇭 H60 菲律宾 [5]
-      - 🇦🇷 H60 阿根廷 [2]
-      - 🇦🇪 H60 阿联酋
-      - 🇯🇵 HY00 日本 0.2
-      - 🇯🇵 HY01 日本 0.2
-      - 🌈 RLYA6 亚太443 0.1
-      - 🇯🇵 RLYA4 日本 0.1
-      - 🇹🇼 RLYA5 台灣 0.1
-      - 🇹🇼 RLYA7 台灣 0.1
-      - 🇹🇼 RLYB5 台灣 0.1
-      - 🇺🇸 RLYA2 美国 0.1
-      - 🇷🇺 RLYA3 俄罗斯 0.1
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
-      - 🎯 绕过代理
-      - 🚀 节点代理
-      - 🇭🇰 D00 香港P
-      - 🇭🇰 D01 香港P
-      - 🇭🇰 D02 香港P
-      - 🇭🇰 D03 香港P
-      - 🇭🇰 D04 香港
-      - 🇭🇰 D05 香港noAd
-      - 🇭🇰 D06 香港
-      - 🇭🇰 D07 香港
-      - 🇭🇰 D08 香港
-      - 🇭🇰 D09 香港P
-      - 🇹🇼 D10 台湾P
-      - 🇹🇼 D11 台湾P
-      - 🇹🇼 D12 台湾P
-      - 🇹🇼 D13 台湾P
-      - 🇹🇼 D14 台湾P
-      - 🇹🇼 D15 台湾P
-      - 🇯🇵 D20 日本T
-      - 🇯🇵 D21 日本T
-      - 🇯🇵 D22 日本T
-      - 🇯🇵 D23 日本T
-      - 🇯🇵 D24 日本
-      - 🇯🇵 D27 日本P [2]
-      - 🇰🇷 D30 韩国
-      - 🇰🇷 D31 韩国
-      - 🇰🇷 D32 韩国P [1.5]
-      - 🇺🇸 D40 美国
-      - 🇺🇸 D41 美国
-      - 🇺🇸 D42 美国
-      - 🇺🇸 D43 美国
-      - 🇺🇸 D44 美国
-      - 🇸🇬 D50 新加坡T
-      - 🇸🇬 D51 新加坡T
-      - 🇸🇬 D52 新加坡AI
-      - 🇸🇬 D53 新加坡AI
-      - 🇸🇬 D54 新加坡AI
-      - 🇲🇾 D55 马来西亚
-      - 🇲🇾 D56 马来西亚
-      - 🇻🇳 D60 越南
-      - 🇯🇵 E0 日本Go
-      - 🇮🇱 H60 以色列
-      - 🇷🇺 H60 俄罗斯
-      - 🇨🇦 H60 加拿大
-      - 🐧 H60 南极 [5]
-      - 🇿🇦 H60 南非 [3]
-      - 🇱🇺 H60 卢森堡 [0.8]
-      - 🇮🇩 H60 印尼 [2]
-      - 🇮🇳 H60 印度
-      - 🇹🇷 H60 土耳其 [8]
-      - 🇪🇬 H60 埃及 [5]
-      - 🇲🇽 H60 墨西哥
-      - 🇳🇬 H60 尼日利亚 [8]
-      - 🇵🇰 H60 巴基斯坦 [8]
-      - 🇧🇷 H60 巴西
-      - 🇩🇪 H60 德国
-      - 🇮🇹 H60 意大利
-      - 🇲🇩 H60 摩尔多瓦
-      - 🇰🇵 H60 朝鲜 [5]
-      - 🇻🇦 H60 梵蒂冈 [5]
-      - 🇫🇷 H60 法国
-      - 🇹🇭 H60 泰国
-      - 🇦🇺 H60 澳大利亚
-      - 🇮🇪 H60 爱尔兰
-      - 🇲🇲 H60 缅甸 [5]
-      - 🇫🇮 H60 芬兰
-      - 🇬🇧 H60 英国1
-      - 🇬🇧 H60 英国2 [3]
-      - 🇳🇱 H60 荷兰
-      - 🇵🇭 H60 菲律宾 [5]
-      - 🇦🇷 H60 阿根廷 [2]
-      - 🇦🇪 H60 阿联酋
-      - 🇯🇵 HY00 日本 0.2
-      - 🇯🇵 HY01 日本 0.2
-      - 🌈 RLYA6 亚太443 0.1
-      - 🇯🇵 RLYA4 日本 0.1
-      - 🇹🇼 RLYA5 台灣 0.1
-      - 🇹🇼 RLYA7 台灣 0.1
-      - 🇹🇼 RLYB5 台灣 0.1
-      - 🇺🇸 RLYA2 美国 0.1
-      - 🇷🇺 RLYA3 俄罗斯 0.1
-  - name: 🍎 苹果服务
-    type: select
-    proxies:
-      - 🎯 绕过代理
-      - 🚀 节点代理
-      - 🇭🇰 D00 香港P
-      - 🇭🇰 D01 香港P
-      - 🇭🇰 D02 香港P
-      - 🇭🇰 D03 香港P
-      - 🇭🇰 D04 香港
-      - 🇭🇰 D05 香港noAd
-      - 🇭🇰 D06 香港
-      - 🇭🇰 D07 香港
-      - 🇭🇰 D08 香港
-      - 🇭🇰 D09 香港P
-      - 🇹🇼 D10 台湾P
-      - 🇹🇼 D11 台湾P
-      - 🇹🇼 D12 台湾P
-      - 🇹🇼 D13 台湾P
-      - 🇹🇼 D14 台湾P
-      - 🇹🇼 D15 台湾P
-      - 🇯🇵 D20 日本T
-      - 🇯🇵 D21 日本T
-      - 🇯🇵 D22 日本T
-      - 🇯🇵 D23 日本T
-      - 🇯🇵 D24 日本
-      - 🇯🇵 D27 日本P [2]
-      - 🇰🇷 D30 韩国
-      - 🇰🇷 D31 韩国
-      - 🇰🇷 D32 韩国P [1.5]
-      - 🇺🇸 D40 美国
-      - 🇺🇸 D41 美国
-      - 🇺🇸 D42 美国
-      - 🇺🇸 D43 美国
-      - 🇺🇸 D44 美国
-      - 🇸🇬 D50 新加坡T
-      - 🇸🇬 D51 新加坡T
-      - 🇸🇬 D52 新加坡AI
-      - 🇸🇬 D53 新加坡AI
-      - 🇸🇬 D54 新加坡AI
-      - 🇲🇾 D55 马来西亚
-      - 🇲🇾 D56 马来西亚
-      - 🇻🇳 D60 越南
-      - 🇯🇵 E0 日本Go
-      - 🇮🇱 H60 以色列
-      - 🇷🇺 H60 俄罗斯
-      - 🇨🇦 H60 加拿大
-      - 🐧 H60 南极 [5]
-      - 🇿🇦 H60 南非 [3]
-      - 🇱🇺 H60 卢森堡 [0.8]
-      - 🇮🇩 H60 印尼 [2]
-      - 🇮🇳 H60 印度
-      - 🇹🇷 H60 土耳其 [8]
-      - 🇪🇬 H60 埃及 [5]
-      - 🇲🇽 H60 墨西哥
-      - 🇳🇬 H60 尼日利亚 [8]
-      - 🇵🇰 H60 巴基斯坦 [8]
-      - 🇧🇷 H60 巴西
-      - 🇩🇪 H60 德国
-      - 🇮🇹 H60 意大利
-      - 🇲🇩 H60 摩尔多瓦
-      - 🇰🇵 H60 朝鲜 [5]
-      - 🇻🇦 H60 梵蒂冈 [5]
-      - 🇫🇷 H60 法国
-      - 🇹🇭 H60 泰国
-      - 🇦🇺 H60 澳大利亚
-      - 🇮🇪 H60 爱尔兰
-      - 🇲🇲 H60 缅甸 [5]
-      - 🇫🇮 H60 芬兰
-      - 🇬🇧 H60 英国1
-      - 🇬🇧 H60 英国2 [3]
-      - 🇳🇱 H60 荷兰
-      - 🇵🇭 H60 菲律宾 [5]
-      - 🇦🇷 H60 阿根廷 [2]
-      - 🇦🇪 H60 阿联酋
-      - 🇯🇵 HY00 日本 0.2
-      - 🇯🇵 HY01 日本 0.2
-      - 🌈 RLYA6 亚太443 0.1
-      - 🇯🇵 RLYA4 日本 0.1
-      - 🇹🇼 RLYA5 台灣 0.1
-      - 🇹🇼 RLYA7 台灣 0.1
-      - 🇹🇼 RLYB5 台灣 0.1
-      - 🇺🇸 RLYA2 美国 0.1
-      - 🇷🇺 RLYA3 俄罗斯 0.1
-  - name: 💨 Steam商店
-    type: select
-    proxies:
-      - 🎯 绕过代理
-      - 🚀 节点代理
-  - name: 🛑 广告过滤
-    type: select
-    proxies:
-      - 🎯 绕过代理
-      - 🚧 屏蔽访问
-      - 🚀 节点代理
-  - name: 📢 谷歌FCM
-    type: select
-    proxies:
-      - 🎯 绕过代理
-      - 🚀 节点代理
-  - name: ✔ ZJU-INTL
-    type: select
-    proxies:
-      - 🎯 绕过代理
-      - 🚀 节点代理
-  - name: ✔ ZJU
-    type: select
-    proxies:
-      - 🎯 绕过代理
-      - 🚀 节点代理
-  - name: 📃 ZJU More Scholar
-    type: select
-    proxies:
-      - 🎯 绕过代理
-      - 🚀 节点代理
-  - name: 🐟 漏网之鱼
-    type: select
-    proxies:
-      - 🚀 节点代理
-      - 🎯 绕过代理
-      - 🇭🇰 D00 香港P
-      - 🇭🇰 D01 香港P
-      - 🇭🇰 D02 香港P
-      - 🇭🇰 D03 香港P
-      - 🇭🇰 D04 香港
-      - 🇭🇰 D05 香港noAd
-      - 🇭🇰 D06 香港
-      - 🇭🇰 D07 香港
-      - 🇭🇰 D08 香港
-      - 🇭🇰 D09 香港P
-      - 🇹🇼 D10 台湾P
-      - 🇹🇼 D11 台湾P
-      - 🇹🇼 D12 台湾P
-      - 🇹🇼 D13 台湾P
-      - 🇹🇼 D14 台湾P
-      - 🇹🇼 D15 台湾P
-      - 🇯🇵 D20 日本T
-      - 🇯🇵 D21 日本T
-      - 🇯🇵 D22 日本T
-      - 🇯🇵 D23 日本T
-      - 🇯🇵 D24 日本
-      - 🇯🇵 D27 日本P [2]
-      - 🇰🇷 D30 韩国
-      - 🇰🇷 D31 韩国
-      - 🇰🇷 D32 韩国P [1.5]
-      - 🇺🇸 D40 美国
-      - 🇺🇸 D41 美国
-      - 🇺🇸 D42 美国
-      - 🇺🇸 D43 美国
-      - 🇺🇸 D44 美国
-      - 🇸🇬 D50 新加坡T
-      - 🇸🇬 D51 新加坡T
-      - 🇸🇬 D52 新加坡AI
-      - 🇸🇬 D53 新加坡AI
-      - 🇸🇬 D54 新加坡AI
-      - 🇲🇾 D55 马来西亚
-      - 🇲🇾 D56 马来西亚
-      - 🇻🇳 D60 越南
-      - 🇯🇵 E0 日本Go
-      - 🇮🇱 H60 以色列
-      - 🇷🇺 H60 俄罗斯
-      - 🇨🇦 H60 加拿大
-      - 🐧 H60 南极 [5]
-      - 🇿🇦 H60 南非 [3]
-      - 🇱🇺 H60 卢森堡 [0.8]
-      - 🇮🇩 H60 印尼 [2]
-      - 🇮🇳 H60 印度
-      - 🇹🇷 H60 土耳其 [8]
-      - 🇪🇬 H60 埃及 [5]
-      - 🇲🇽 H60 墨西哥
-      - 🇳🇬 H60 尼日利亚 [8]
-      - 🇵🇰 H60 巴基斯坦 [8]
-      - 🇧🇷 H60 巴西
-      - 🇩🇪 H60 德国
-      - 🇮🇹 H60 意大利
-      - 🇲🇩 H60 摩尔多瓦
-      - 🇰🇵 H60 朝鲜 [5]
-      - 🇻🇦 H60 梵蒂冈 [5]
-      - 🇫🇷 H60 法国
-      - 🇹🇭 H60 泰国
-      - 🇦🇺 H60 澳大利亚
-      - 🇮🇪 H60 爱尔兰
-      - 🇲🇲 H60 缅甸 [5]
-      - 🇫🇮 H60 芬兰
-      - 🇬🇧 H60 英国1
-      - 🇬🇧 H60 英国2 [3]
-      - 🇳🇱 H60 荷兰
-      - 🇵🇭 H60 菲律宾 [5]
-      - 🇦🇷 H60 阿根廷 [2]
-      - 🇦🇪 H60 阿联酋
-      - 🇯🇵 HY00 日本 0.2
-      - 🇯🇵 HY01 日本 0.2
-      - 🌈 RLYA6 亚太443 0.1
-      - 🇯🇵 RLYA4 日本 0.1
-      - 🇹🇼 RLYA5 台灣 0.1
-      - 🇹🇼 RLYA7 台灣 0.1
-      - 🇹🇼 RLYB5 台灣 0.1
-      - 🇺🇸 RLYA2 美国 0.1
-      - 🇷🇺 RLYA3 俄罗斯 0.1
-  - name: 🎯 绕过代理
-    type: select
-    proxies:
-      - DIRECT
-  - name: 🚧 屏蔽访问
-    type: select
-    proxies:
-      - REJECT
+- name: ♻️ 自动选择
+  type: url-test
+  regex: ^(?!.*(ZJU|浙大|内网|✉️)).*
+  rule: false
+- name: 🚀 手动切换1
+  type: select
+  manual: true
+  rule: false
+- name: 🚀 手动切换2
+  type: select
+  manual: true
+  rule: false
+- name: 🔯 故障转移
+  type: fallback
+  regex: ^(?!.*(ZJU|浙大|内网|✉️)).*
+  rule: false
+- name: 🔮 负载均衡
+  type: load-balance
+  regex: ^(?!.*(ZJU|浙大|内网|✉️)).*
+  rule: false
+- name: 🔮 香港负载均衡
+  type: load-balance
+  rule: false
+  regex: 🇭🇰|HK|Hong|Kong|HGC|WTT|CMI|港
+- name: ✔ ZJU-INTL
+  type: select
+  prior: DIRECT
+- name: ✔ ZJU
+  type: select
+  prior: DIRECT
+- name: 📃 ZJU More Scholar
+  type: select
+  prior: DIRECT
+- name: 🤖 ChatBot
+  type: select
+  prior: PROXY
+- name: 📲 电报消息
+  type: select
+  prior: PROXY
+- name: 📹 油管视频
+  type: select
+  prior: PROXY
+- name: 🎥 奈飞视频
+  type: select
+  prior: PROXY
+- name: 📺 巴哈姆特
+  type: select
+  prior: PROXY
+- name: 📺 哔哩哔哩
+  type: select
+  prior: DIRECT
+- name: 🌍 国外媒体
+  type: select
+  prior: PROXY
+- name: 🌏 国内媒体
+  type: select
+  prior: DIRECT
+- name: 📢 谷歌FCM
+  type: select
+  prior: DIRECT
+- name: 📢 谷歌服务
+  type: select
+  prior: PROXY
+- name: Ⓜ️ 微软Bing
+  type: select
+  prior: PROXY
+- name: Ⓜ️ 微软云盘
+  type: select
+  prior: DIRECT
+- name: Ⓜ️ 微软服务
+  type: select
+  prior: DIRECT
+- name: 🍎 苹果服务
+  type: select
+  prior: DIRECT
+- name: 🎮 游戏平台
+  type: select
+  prior: DIRECT
+- name: 🎶 网易音乐
+  type: select
+  prior: DIRECT
+- name: 🎶 Spotify
+  type: select
+  prior: DIRECT
+- name: 🛸 PT站
+  type: select
+  prior: DIRECT
+- name: 🎯 全球直连
+  type: select
+  prior: DIRECT
+- name: 🛑 广告拦截
+  type: select
+  prior: REJECT
+- name: 🍃 应用净化
+  type: select
+  prior: REJECT
+- name: 🛡️ 隐私防护
+  type: select
+  prior: REJECT
+- name: 🐟 漏网之鱼
+  type: select
+  prior: PROXY
+- name: 🇨🇳 ZJU节点
+  type: select
+  rule: false
+  regex: ZJU|浙大
+- name: 🇭🇰 香港节点
+  type: url-test
+  rule: false
+  regex: 🇭🇰|HK|Hong|Kong|HGC|WTT|CMI|港
+- name: 🇨🇳 台湾节点
+  type: url-test
+  rule: false
+  regex: 🇹🇼|TW|Taiwan|新北|彰化|CHT|台|HINET
+- name: 🇸🇬 狮城节点
+  type: url-test
+  rule: false
+  regex: 🇸🇬|SG|Singapore|狮城|^新[^节北]|[^刷更]新[^节北]
+- name: 🇯🇵 日本节点
+  type: url-test
+  rule: false
+  regex: 🇯🇵|JP|Japan|Tokyo|Osaka|Saitama|东京|大阪|埼玉|日
+- name: 🇰🇷 韩国节点
+  type: url-test
+  rule: false
+  regex: 🇰🇷|KO?R|Korea|首尔|韩|韓
+- name: 🇺🇸 美国节点
+  type: url-test
+  rule: false
+  regex: 🇺🇸|US|America|United.*?States|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥
